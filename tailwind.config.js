@@ -13,7 +13,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    colors: {
+      "dark": "#151c2c",
+      "darkSoft": "#182237",
+      "white": "#fff",
+      "whiteSoft":"#b7bac1"
+    },
   },
   plugins: [],
 };

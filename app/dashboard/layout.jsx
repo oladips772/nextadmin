@@ -5,14 +5,14 @@ import Navbar from "../ui/navbar";
 
 function Layout({ children }) {
   return (
-    <div>
-      <div>
+    <div className="flex">
+      <di className="flex-1 bg-darkSoft p-[20px]">
         <Sidebar />
-      </div>
-      <div>
+      </di>
+      <div className="flex-[4]">
         <Navbar />
+        {children}
       </div>
-      {children}
     </div>
   );
 }
