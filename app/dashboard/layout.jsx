@@ -6,7 +6,7 @@ import Navbar from "../ui/navbar";
 function Layout({ children }) {
   return (
     <div className="flex">
-      <di className="flex-1 bg-darkSoft p-[20px]">
+      <di className="flex-1 bg-darkSoft p-[15px]">
         <Sidebar />
       </di>
       <div className="flex-[4]">
