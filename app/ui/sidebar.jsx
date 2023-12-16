@@ -92,7 +92,7 @@ function Sidebar() {
           className="object-contain rounded-full"
         />
         <div className="flex flex-col items-start">
-              <span className="text-[14px] font-[600]">Oladipupo Akorede</span>
+          <span className="text-[14px] font-[600]">Oladipupo Akorede</span>
           <span className="text-whiteSoft text-[13px]">Administrator</span>
         </div>
       </div>
@@ -105,6 +105,10 @@ function Sidebar() {
             ))}
           </li>
         ))}
+        <button className="flex items-center space-x-2 p-3 w-full rounded hover:bg-darkLight">
+          <MdLogout />
+          Logout 
+        </button>
       </ul>
     </div>
   );

@@ -16,6 +16,7 @@ module.exports = {
     colors: {
       "dark": "#151c2c",
       "darkSoft": "#182237",
+      "darkLight":"#2e374a",
       "white": "#fff",
       "whiteSoft":"#b7bac1"
     },
